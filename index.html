@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="stylesheet" href="linkedin.css">
+    <link rel="icon" href="linkedinlogo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <svg class="logo" viewBox="0 0 24 24">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 
+                22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 
+                8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 
+                19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 
+                0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 
+                3.36 3.66z"></path>
+            </svg>
+            <div>
+                <input type="text" class="search" placeholder="Search">
+                <svg class="searchicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+                    <circle cx="5" cy="5" r="3.5" stroke="#302D2D" stroke-width="1.5" fill="transparent" stroke="black"/>
+                    <rect x="7" y="7.65576" width="2" height="5" rx="1" transform="rotate(-40.9771 7 7.65576)" fill="#302D2D"/>
+                </svg>
+            </div>
+            <div class="homeicon">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
+                    </svg>
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="mynetwork">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"></path>
+                    </svg>
+                    <span>My Network</span>
+                </a>
+            </div>
+            <div class="jobs">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"></path>
+                    </svg>
+                    <span>Jobs</span>
+                </a>
+            </div>
+            <div class="messaging">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"></path>
+                    </svg>
+                    <span>Messaging</span>
+                </a>
+            </div>
+            <div class="notifications">
+                <a href="index.html" style="text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                        <path d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"></path>
+                    </svg>
+                    <span>Notifications</span>
+                </a>
+            </div>
+            <div class="profilepic">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="headerpropic.jpeg" alt="">
+                    <span>Me</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 6" fill="none">
+                        <path d="M6.5 6L12.9952 0H0.00480938L6.5 6Z" fill="#685F5F"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="business">
+                <a href="index.html">
+                    <button>
+                        <svg class="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"></path>
+                        </svg>
+                        <span>For Business</span>
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 6" fill="none">
+                            <path d="M6.5 6L12.9952 0H0.00480938L6.5 6Z" fill="#685F5F"/>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div class="Premium">
+                <a href="index.html">
+                    Try Premium for
+                    <p>free</p>
+                </a>
+            </div>
+        </div>
+        <div class="leftblock">
+            <div class="backgroundimg">
+                <div class="propic">
+                    <img src="headerpropic.jpeg" alt="">
+                </div>
+            </div>
+            <div class="profilename">
+                <a href="index.html">
+                    SAJIN PRASAD
+                </a>
+                <p>* Red Hat Certified System Administrator *</p>
+            </div>
+            <div>
+                <div class="pvdiv">
+                    <a href="index.html" class="pv">Profile viewers</a>
+                </div>
+                <div class="vaadiv">
+                    <a href="index.html" class="vaa">View all analytics</a>
+                </div>
+            </div>
+            <a href="index.html" class="tpff">
+                <h3>Access exclusive tools & insights</h3>
+                <img src="Untitled/Intersect.svg" class="lowert" alt="">
+                <img src="Untitled/Subtract.svg" class="uppert" alt="">
+                <p>Try Premium for free</p>
+            </a>
+            <div class="myitemdiv">
+                <a href="index.html" class="myitem">
+                    <img src="bookmark.png" alt="">
+                    <p>My items</p>
+                </a>
+            </div>
+        </div>
+        <div class="middleblock">
+            <img src="headerpropic.jpeg" class="propic" alt="">
+            <button class="writepost">
+                <span>Start a post</span>
+            </button>
+            <button class="media">
+                <img src="pictures.png" alt="">
+                <span>Media</span>
+            </button>
+            <button class="event">
+                <img src="event.png" alt="">
+                <span>Event</span>
+            </button>
+            <button class="wa">
+                <img src="writearticle.png" alt="">
+                <span>Write article</span>
+            </button>
+        </div>
+        <a href="index.html" class="line" style="text-decoration: none;";>
+            
+        </a>
+        <div>
+            <a href="index.html" class="sortby">Sort by:</a>
+            <a href="index.html" class="top">Top
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 6" fill="none">
+                    <path d="M6.5 6L12.9952 0H0.00480938L6.5 6Z"/>
+                </svg>
+            </a>
+        </div>
+        <div class="rightblock">
+            <h3>LinkedIn News</h3>
+            <img src="i.png" class="i" alt="">
+            <div class="news1div">
+                <svg class="dot" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="10.5" cy="11" rx="10.5" ry="11" fill="#020101"/>
+                </svg>                    
+                <p class="news1">Israel-Hamas war: Latest updates</p>
+                <p class="cmc">Top news • 36,706 readers</p>
+            </div>
+            <div class="news2div">
+                <svg class="dot" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="10.5" cy="11" rx="10.5" ry="11" fill="#020101"/>
+                </svg>                    
+                <p class="news1">Israel-Hamas war: Latest updates</p>
+                <p class="cmc">Top news • 36,706 readers</p>
+            </div>
+            <div class="news3div">
+                <svg class="dot" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="10.5" cy="11" rx="10.5" ry="11" fill="#020101"/>
+                </svg>                    
+                <p class="news3">Israel-Hamas war: Latest updates</p>
+                <p class="cmc">Top news • 36,706 readers</p>
+            </div>
+            <div class="news4div">
+                <svg class="dot" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="10.5" cy="11" rx="10.5" ry="11" fill="#020101"/>
+                </svg>                    
+                <p class="news4">Israel-Hamas war: Latest updates</p>
+                <p class="cmc">Top news • 36,706 readers</p>
+            </div>
+            <div class="news5div">
+                <svg class="dot" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="10.5" cy="11" rx="10.5" ry="11" fill="#020101"/>
+                </svg>                    
+                <p class="news5">Israel-Hamas war: Latest updates</p>
+                <p class="cmc">Top news • 36,706 readers</p>
+            </div>
+            <button class="showmore">
+                Show more
+                <svg>
+                    <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="postdiv">
+            <a href="index.html" style="text-decoration: none;">
+                <img src="linkedinlogo.png" class="linkedinlogo" alt="">
+                <p class="linkedin">Linkedin<span>Promoted</span> </p>
+            </a>
+            <p class="caption">Search for job at companies that need your skills and experience.</p>
+            <a href="https://lnkd.in/ghTNQw9U" style="text-decoration: none;" class="joblink">https://lnkd.in/ghTNQw9U</a>
+            <a href="index.html" class="post">
+                <img src="linkedinpost.jpeg" alt="">
+                <div>
+                    <p>See who's hiring <span>linkedin.com</span></p>
+                </div>
+                <a href="index.html" class="follow">
+                    <button>
+                        Learn more
+                    </button>
+                </a>                    
+            </a>
+            <img src="thump.svg" alt="" class="thump">
+            <img src="bulb.svg" alt="" class="bulb">
+            <img src="love.svg" alt="" class="love">
+            <a href="index.html" class="reactions">947</a>
+            <svg class="vline" width="734" height="1" viewBox="0 0 734 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="734" height="1" fill="#E7E2E2"/>
+            </svg>
+            <button class="like">
+                <img src="like.png" alt="">
+                <p>Like</p>
+            </button>
+            <button class="comment">
+                <img src="comment.png" alt="">
+                <p>Comment</p>
+            </button>
+            <button class="repost">
+                <img src="repost.png" alt="">
+                <p>Repost</p>
+            </button>
+            <button class="send">
+                <svg width="171" height="176" viewBox="0 0 171 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M118.923 175.791L170.622 0.330878L0.940771 67.3283L65.8685 101.098L66.0316 101.183L119.009 56.6984L79.5973 113.132L79.6389 113.198L118.843 175.642L118.803 175.676L118.923 175.791Z"/>
+                </svg>
+                <p>Send</p>
+            </button>
+        </div>
+        <ul  style="list-style-type: none;">
+            <li class="about">
+                <a href="index.html">About</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="accessibility">
+                <a href="index.html">Accessibility</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="hc">
+                <a href="index.html">Help Center</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="pt">
+                <a href="index.html">Privacy & Terms</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 6" fill="none">
+                    <path d="M6.5 6L12.9952 0H0.00480938L6.5 6Z" fill="#685F5F"/>
+                </svg>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="ac">
+                <a href="index.html">Add Choices</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="adv">
+                <a href="index.html">Avertising</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="bs">
+                <a href="index.html">Buisiness Services</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 6" fill="none">
+                    <path d="M6.5 6L12.9952 0H0.00480938L6.5 6Z" fill="#685F5F"/>
+                </svg>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="gtla">
+                <a href="index.html">Get the Linkedin app</a>
+            </li>
+        </ul>
+        <ul  style="list-style-type: none;">
+            <li class="more">
+                <a href="index.html">More</a>
+            </li>
+        </ul>
+        <div class="final">
+            <img src="linkedin.svg" alt="">
+            <p>LinkedIn Corporation © 2023</p>
+        </div>
+    </div>
+</body>
+</html>
